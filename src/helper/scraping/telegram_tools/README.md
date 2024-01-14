@@ -1,0 +1,3 @@
+- scrapeTelegramChannelMessages.py: scrape telegram data.
+- extractSateAndCity.py: example showing how to use chat name to extract state and city.
+- generateTelegramStringToken.py: generate string token to skip authentication
