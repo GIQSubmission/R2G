@@ -5,7 +5,7 @@
     <h1 align="center">R2G</h1>
 </p>
 <p align="center">
-    <em>Streamline your data analysis with R2G</em>
+    <em>Refugee to Government interactive analysis of Telegram data concerning Ukrainian refugees</em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/GIQSubmission/R2G?style=default&color=0080ff" alt="license">
@@ -18,46 +18,26 @@
 </p>
 <hr>
 
-##  Quick Links
-
-> - [ Overview](#-overview)
-> - [ Features](#-features)
-> - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
-> - [ Getting Started](#-getting-started)
->   - [ Installation](#-installation)
->   - [ Running R2G](#-running-R2G)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
-> - [ Contributing](#-contributing)
-> - [ License](#-license)
-> - [ Acknowledgments](#-acknowledgments)
 
 ---
 
-##  Overview
 
-R2G is a project that offers a powerful and efficient solution for web scraping and data retrieval tasks. It provides a wide range of functionalities and tools to facilitate the extraction, processing, and storage of data from various sources. R2G's value proposition lies in its ability to automate the collection of data from websites and APIs, enabling users to access and analyze relevant information without the need for manual intervention. With support for popular libraries like BeautifulSoup and PyGoogleNews, R2G simplifies the scraping process and empowers users to extract valuable insights from the web. Whether it's gathering news articles, monitoring social media, or aggregating data for research purposes, R2G streamlines the data retrieval process and enhances productivity.
+## Overview
 
----
+R2G is an advanced dashboard application designed to address the challenges of gathering and understanding refugee needs in a data-driven, bottom-up approach. This powerful tool leverages data from open Telegram channels used by Ukrainian refugees, providing policymakers and public sector agencies with valuable insights to make informed decisions. R2G employs advanced techniques, such as topic modeling and a chatbot interface powered by GPT-4, to assess and interact with refugee data. The result is a comprehensive platform that empowers stakeholders to better serve refugee populations while respecting their privacy.
 
-##  Features
+### Key Technical Features
 
-|    |   Feature         | Description |
-|----|-------------------|---------------------------------------------------------------|
-| ⚙️  | **Architecture**  | The project's architecture is not described in the repository. Further analysis would be needed to determine the architecture. |
-| 🔩 | **Code Quality**  | The code quality and style are not mentioned in the repository. Without further information or code review, it is difficult to assess the code quality. |
-| 📄 | **Documentation** | There is no explicit information about the extent and quality of documentation in the repository. It is recommended to review the repository and codebase to evaluate the documentation. |
-| 🔌 | **Integrations**  | The key integrations and external dependencies are mentioned in the project dependencies list. Some notable dependencies include Vue.js, FastAPI, SQLAlchemy, pymongo, and leaflet. |
-| 🧩 | **Modularity**    | The modularity and reusability of the codebase are not explicitly discussed in the repository. A code review would be necessary to evaluate the modularity. |
-| 🧪 | **Testing**       | No specific testing frameworks or tools are mentioned in the repository. It is recommended to review the codebase to determine the testing approach. |
-| ⚡️  | **Performance**   | There is no information available in the repository regarding the efficiency, speed, and resource usage of the project. In-depth analysis would be required to assess performance. |
-| 🛡️ | **Security**      | The security measures used for data protection and access control are not explicitly mentioned in the repository. Further investigation would be necessary to evaluate the security implementation. |
-| 📦 | **Dependencies**  | The key external libraries and dependencies are provided in the project dependencies list. Some notable dependencies include tenacity, ipynb, element-plus, echarts, and axios.|
-| 🚀 | **Scalability**   | The ability of the project to handle increased traffic and load is not discussed in the repository. Further analysis would be required to assess scalability. |
+- **Data Gathering:** R2G scrapes messages from diverse Telegram channels utilized by Ukrainian refugees, ensuring a constant stream of relevant and up-to-date information.
 
+- **Multilingual Analysis:** Utilizing the BERTopic algorithm, R2G processes multilingual data, enabling it to cluster text in various languages, including Ukrainian, Russian, German, and English.
+
+- **Chatbot Interaction:** R2G incorporates the GPT-4 API to facilitate user interactions with the refugee data. Users can ask questions about specific topics, geolocations, and date ranges, with the chatbot retrieving relevant information from the database.
+
+- **Interactive Dashboard:** The application offers an interactive website where stakeholders can explore and analyze refugee needs from a bottom-up perspective, applying data-driven intelligence.
 
 ---
+
 
 ##  Repository Structure
 
@@ -65,7 +45,7 @@ R2G is a project that offers a powerful and efficient solution for web scraping 
 └── R2G/
     ├── frontend
     │   ├── chatgpt-backend
-    │   │   ├── Tumen_Chatbot_development_edition.py
+    │   │   ├── Chatbot_development_edition.py
     │   │   ├── chatGpt.controller.js
     │   │   ├── chat_fastapi_app.py
     │   │   ├── index.js
