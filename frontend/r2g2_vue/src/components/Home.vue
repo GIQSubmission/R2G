@@ -151,7 +151,7 @@ export default {
       loader: "bars",
       showSidebar: false,       // show side bar
       sidebarIcon: arrowright,
-      newsPath: 'https://raw.githubusercontent.com/sprenkamp/r2g2/main/frontend/r2g2_vue/src/data/df_news_demo.csv', // temporary mock data path
+      newsPath: 'https://raw.githubusercontent.com/GIQSubmission/r2g/main/frontend/r2g2_vue/src/data/df_news_demo.csv', // temporary mock data path
       // selectedLanguage: '',    // language property, define the current chosen language in web
       // languageOptions: [ 'English', 'Deutsch'], // define language options in select box
       selectedNews: ['all found topics'], // 

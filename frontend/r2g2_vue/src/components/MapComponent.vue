@@ -122,7 +122,7 @@ export default {
   },
   async created() {
     this.isLoading = true;
-    const response = await fetch("https://raw.githubusercontent.com/sprenkamp/r2g2/main/frontend/r2g2_vue/src/data/germany_switzerland.geojson")
+    const response = await fetch("https://raw.githubusercontent.com/GIQSubmission/r2g/main/frontend/r2g2_vue/src/data/germany_switzerland.geojson")
     const data = await response.json();
     this.geojson = data;
 
@@ -312,7 +312,7 @@ export default {
   },
   async created() {
     this.isLoading = true;
-    const response = await fetch("https://raw.githubusercontent.com/sprenkamp/r2g2/main/frontend/r2g2_vue/src/data/germany_switzerland.geojson")
+    const response = await fetch("https://raw.githubusercontent.com/GIQSubmission/r2g/main/frontend/r2g2_vue/src/data/germany_switzerland.geojson")
     const data = await response.json();
 
     // only use swiss part

@@ -26,7 +26,6 @@ class QueryRequest(BaseModel):
     query: str
     chat_history: list
 
-# uvicorn Tumen_Chatbot_development_edition:app --reload
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,

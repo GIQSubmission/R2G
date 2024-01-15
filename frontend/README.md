@@ -1,15 +1,15 @@
 # How to run the latest version vue interface of this project
 
-This Readme file is a tutorial to tell you how to run openai, mongodb and vue server locally, including how to install required packages and run the server on your computer. All the example code assumes you are in the main folder of our project, that is *r2g2*. If you want to change something that in *frontend* folder, you should create a new github branch.
+This Readme file is a tutorial to tell you how to run openai, mongodb and vue server locally, including how to install required packages and run the server on your computer. All the example code assumes you are in the main folder of our project, that is *r2g*. If you want to change something that in *frontend* folder, you should create a new github branch.
 
 My computer environment is *Win10* and the compiler I use is *vscode*. First create a project folder on your computer, into that folder and run below code to copy the main branch of the project.
 
 ```sh
-git clone https://github.com/sprenkamp/r2g2.git
+git clone https://github.com/GIQSubmission/r2g.git
 ```
 
 ## Folder Structure
-Make sure you are in r2g2 folder.
+Make sure you are in r2g folder.
 
 1. The structure of the frontend folder:
 

@@ -8,7 +8,7 @@ This demonstrates how to run the chatbot application via FastAPI using Docker Co
 1. **Clone the repository**
 
     ```
-    git clone https://github.com/sprenkamp/r2g2.git
+    git clone https://github.com/GIQSubmission/r2g.git
     ```
 
 2. **Navigate to the project directory**

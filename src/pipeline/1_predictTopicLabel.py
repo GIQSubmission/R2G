@@ -38,7 +38,7 @@ def add_topic_label(collection):
     if len(list(cursor.clone())) == 0:
         print("--**-- There is no updated data. Possible reasons: --**--")
         print("(1) No updated messages in our current Chats")
-        print("(2) Telegram scraping pipeline is Down. Please check the status is pipeline https://github.com/sprenkamp/r2g2/actions/workflows/scraping_telegram.yml")
+        print("(2) Telegram scraping pipeline is Down. Please check the status is pipeline https://github.com/GIQSubmission/r2g/actions/workflows/scraping_telegram.yml")
 
     # Iterate through the cursor in batches
     for batch in cursor:
